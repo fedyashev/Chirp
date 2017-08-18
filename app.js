@@ -2,6 +2,10 @@ var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
+var passport = require('passport');
+var session = require('express-session');
+//var passportLocal = require('passport-local');
+//var bcrypt = require('bcrypt-nodejs');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
